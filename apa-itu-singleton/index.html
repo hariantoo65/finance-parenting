@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv='content-language' content='en-us'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Apa Itu Singleton, Kita selalu terbiasa belajar membuat aplikasi berbasis php dengan studi kasus pengolahan data. Pola singleton adalah salah satu pola desain yang paling sederhana namun paling kontroversial (dengan pro dan banyak kontra).
+Documentation Generator, Design Patterns — Minggu terakhir Sprint 3 From medium.com
+Singleton adalah sebuah design pattern di dalam pemrograman yang berfungsi untuk menghemat memori dengan cara “menghilangkan” inisialisasi objek. Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Apa itu design pattern design pattern artinya adalah pola desain. Apa itu design pattern design pattern artinya adalah pola desain.
+">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="seznambot" content="index,follow" />
+<meta name="Slurp" content="index,follow" />
+<meta name="ia_archiver" content="index,follow" />
+<meta name="Baiduspider" content="index,follow" />
+<meta name="BecomeBot" content="index,follow" />
+<meta name="Bingbot" content="index,follow" />
+<meta name="btbot" content="index,follow" />
+<meta name="Dotbot" content="index,follow" />
+<meta name="Yeti" content="index,follow" />
+<meta name="Teoma" content="index,follow" />
+<meta name="Yandex" content="index,follow" />
+
+    
+<title>These 12 Step Apa Itu Singleton  | Finance and Parenting Review</title>
+<meta name="url" content="https://hariantoo65.github.io/finance-parenting/apa-itu-singleton/" />
+<meta property="og:url" content="https://hariantoo65.github.io/finance-parenting/apa-itu-singleton/">
+<meta property="article:author" content="Kriline"> 
+<meta name="author" content="Kriline">
+<meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+<link rel="canonical" href="https://hariantoo65.github.io/finance-parenting/apa-itu-singleton/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://hariantoo65.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="https://hariantoo65.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://hariantoo65.github.io/assets/css/theme.css">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": "These 12 Step Apa Itu Singleton ",
+    "headline": "These 12 Step Apa Itu Singleton ",
+    "alternativeHeadline": "",
+    "description": "Tapi itu juga bukan singleton. Manusia manusia= new manusia( );",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/hariantoo65.github.io\/finance-parenting\/apa-itu-singleton\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Kriline"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Kriline"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Kriline"
+    },
+    "copyrightHolder" : "Finance and Parenting Review",
+    "copyrightYear" : "2022",
+    "dateCreated": "2022-01-21T00:00:00.00Z",
+    "datePublished": "2022-01-21T00:00:00.00Z",
+    "dateModified": "2022-01-21T00:00:00.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Finance and Parenting Review",
+        "url": "https://hariantoo65.github.io/finance-parenting/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/hariantoo65.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": "https://hariantoo65.github.io/logo.png",
+    "url" : "https:\/\/hariantoo65.github.io\/finance-parenting\/apa-itu-singleton\/",
+    "wordCount" : "1955",
+    "genre" : [ "parenting from the inside out" ],
+    "keywords" : [ "Apa" , "Itu" , "Singleton" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://hariantoo65.github.io/finance-parenting/"><span style="text-transform: capitalize;font-weight: bold;">Finance and Parenting Review</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://hariantoo65.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://hariantoo65.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://hariantoo65.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://hariantoo65.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://hariantoo65.github.io/finance-parenting/categories/diy-project/" title="DIY Project">DIY Project</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://hariantoo65.github.io/finance-parenting/categories/finance-managemen/" title="Finance Managemen">Finance Managemen</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://hariantoo65.github.io/finance-parenting/categories/parenting-psychology/" title="Parenting Psychology">Parenting Psychology</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://hariantoo65.github.io/finance-parenting/categories/parenting-psychology"/>Parenting Psychology</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline">These 12 Step Apa Itu Singleton </h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Kriline <span class="text-muted d-block mt-1">Jan 21, 2022 · <span class="reading-time">10 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://i2.wp.com/ichi.pro/assets/images/max/724/0*mFqr_zb-ouv0XcAg.png" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" alt="These 12 Step Apa Itu Singleton "/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>Tapi itu juga bukan singleton. Manusia manusia= new manusia( );</p><center>
+	
+</center> <p><strong>Apa Itu Singleton</strong>, Kita selalu terbiasa belajar membuat aplikasi berbasis php dengan studi kasus pengolahan data. Pola singleton adalah salah satu pola desain yang paling sederhana namun paling kontroversial (dengan pro dan banyak kontra).</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=apa%20itu%20singleton" alt="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" title="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+Documentation Generator, Design Patterns — Minggu terakhir Sprint 3 From medium.com</p>
+<p>Singleton adalah sebuah design pattern di dalam pemrograman yang berfungsi untuk menghemat memori dengan cara “menghilangkan” inisialisasi objek. Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Apa itu design pattern design pattern artinya adalah pola desain. Apa itu design pattern design pattern artinya adalah pola desain.</p>
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'cdccd96eae510ea5fd061215a594081f',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplayformat.com/cdccd96eae510ea5fd061215a594081f/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+Documentation Generator, Design Patterns — Minggu terakhir Sprint 3, Gagasan di balik ini adalah untuk menghindari pembuatan instance yang tidak perlu.
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/bYL9sE1Pxjw/maxresdefault.jpg" alt="REVIEW MODE BARU YANG LEBIH SERU DARI SINGLETON!!! LEGENDS OF" title="REVIEW MODE BARU YANG LEBIH SERU DARI SINGLETON!!! LEGENDS OF" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: youtube.com</center></em></p>
+<p>REVIEW MODE BARU YANG LEBIH SERU DARI SINGLETON!!! LEGENDS OF Ya benar memang pola desain, tapi pola desain yang bagaimana ?. Apa itu kelas singleton di jawa? Apa itu pola desain singleton? Singleton pattern merupakan salah satu dari sekian banyak design pattern yang ada, dimana. Karena itu tidak memperkenalkan negara bisa berubah global.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/code-boxx.com/wp-content/uploads/2021/04/html-elements-js.jpg" alt="34 Append To Object Javascript Javascript Overflow" title="34 Append To Object Javascript Javascript Overflow" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: maibushyx.blogspot.com</center></em></p>
+<p>34 Append To Object Javascript Javascript Overflow Ini definisi dari singleton pattern: Untuk hal yang sederhana ini bisa sebuah function atau atau sebuah class. Kali ini, kita tidak hanya membahas apa itu singleton principle, tapi juga membahas. Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Welcome back, pattern kita selanjutnya adalah singleton pattern.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/logique.s3-ap-southeast-1.amazonaws.com/2020/05/periodic_table.png" alt="Pengertian dan Macammacam Design Pattern" title="Pengertian dan Macammacam Design Pattern" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: logique.co.id</center></em></p>
+<p>Pengertian dan Macammacam Design Pattern Apa itu singleton yang malas? Jadi, apa itu static modifier, final modifier, dan singleton pattern ? Sebelumnya gw sudah bikin method runprogram () yang isinya berupa perintah untuk menampilkan. Sebuah instance adalah kejadian konkret dari objek apa pun. Apa itu design pattern design pattern artinya adalah pola desain.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/doloreskeane.com/wp-content/uploads/2021/02/USATSI_10823550_168393300_lowres.jpg" alt="Elang Menemukan Pengganti Duuuuuuuuuuuuuuuuce Staley doloreskeane" title="Elang Menemukan Pengganti Duuuuuuuuuuuuuuuuce Staley doloreskeane" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: doloreskeane.com</center></em></p>
+<p>Elang Menemukan Pengganti Duuuuuuuuuuuuuuuuce Staley doloreskeane The singleton single malt yang kaya rasa sebuah merek minuman beralkohol single malt yang unik dan cocok diracik dengan berbagai campuran. Singleton pattern memastikan suatu kelas hanya terdapat satu instance dan kelas. Pengertian singleton dan definisinya dalam glosarium. Kursus pelatihan dan sertifikasi java j2ee dan soa edureka dirancang untuk siswa dan profesional yang ingin menjadi pengembang java. Karena itu tidak.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i1.wp.com/nysnmedia.com/wp-content/uploads/2021/05/David.jpg?w=1366&amp;amp;ssl=1" alt="David Singleton &amp;quot;Turun Gunung&amp;quot; Berikan Coaching Clinic Untuk Bima" title="David Singleton &amp;quot;Turun Gunung&amp;quot; Berikan Coaching Clinic Untuk Bima" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: nysnmedia.com</center></em></p>
+<p>David Singleton &quot;Turun Gunung&quot; Berikan Coaching Clinic Untuk Bima 3 tipe software design pattern Elemen singleton ( % s) punya duplikat. Singleton adalah salah satu design pattern yang simple dalam penggunaannya yang bertujuan untuk membuat satu saja instance/object yang di dalam jvm(java virtual machine). Hai semuanya kembali lagi di artikel dumetschool , kali ini saya akan masih membahas mengenai oop yaitu apa itu design pattern singleton di php object.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/iblindonesia.com/image/1040x650/20210803182842-e692d0d7-8bc9-4e47-ae39-68fb29f1eae3.jpeg" alt="Kontrak Para Pemain Prawira Habis, UntungRuginya Buat David Singleton" title="Kontrak Para Pemain Prawira Habis, UntungRuginya Buat David Singleton" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: iblindonesia.com</center></em></p>
+<p>Kontrak Para Pemain Prawira Habis, UntungRuginya Buat David Singleton Apa itu pola desain singleton? Sebuah instance adalah kejadian konkret dari objek apa pun. Karena itu tidak memperkenalkan negara bisa berubah global. Pengertian singleton dan definisinya dalam glosarium. Obyek yang dapat diakses secara global;</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/1104/1*l6Aa2hdPKyuejMYD_CLRqg.png" alt="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" title="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: medium.com</center></em></p>
+<p>Documentation Generator, Design Patterns — Minggu terakhir Sprint 3 Apa itu design pattern design pattern artinya adalah pola desain. The singleton pattern enables us to do this. Singleton biasanya ada dalam kamus atau glossary berikut ini untuk penjelasan apa. Mereka tidak perlu lagi menjelaskan apa itu singleton. Welcome back, pattern kita selanjutnya adalah singleton pattern.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/luxina.id/wp-content/uploads/2017/07/Diageo-Whisky-Experience-11.jpg" alt="Whisky Experience dari Singleton dan Johnnie Walker Luxina.ID" title="Whisky Experience dari Singleton dan Johnnie Walker Luxina.ID" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: luxina.id</center></em></p>
+<p>Whisky Experience dari Singleton dan Johnnie Walker Luxina.ID Dalam istilah awam, kelas singleton di java adalah kelas yang membolehkan akses ke dalamnya melalui satu contoh pada satu masa. Setiap kali banyak kelas atau klien mengirim permintaan untuk kelas tersebut, mereka mendapatkan instans kelas yang sama. Singleton adalah salah satu design pattern yang simple dalam penggunaannya yang bertujuan untuk membuat satu saja instance/object yang di dalam jvm(java virtual machine)..</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/ahmad.sofyan.web.id/wp-content/uploads/2017/08/testrpc-py.png" alt="Ekosistem Python di Ethereum Ahmad Sofyan" title="Ekosistem Python di Ethereum Ahmad Sofyan" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: ahmad.sofyan.web.id</center></em></p>
+<p>Ekosistem Python di Ethereum Ahmad Sofyan Karena itu tidak memperkenalkan negara bisa berubah global. Singleton adalah kelas yang dirancang sehingga hanya satu instance objek yang bisa ada. Sebagai contoh, seseorang menyarankan untuk menggunakan pola singleton ketika proses diskusi. Kali ini, kita tidak hanya membahas apa itu singleton principle, tapi juga membahas. Kursus pelatihan dan sertifikasi java j2ee dan soa edureka dirancang untuk siswa dan profesional yang.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/f8/23/10/f82310bc360574df4773a55859c85cab.jpg" alt="Java Design Patterns (eBook) Pattern design, Programming patterns" title="Java Design Patterns (eBook) Pattern design, Programming patterns" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: br.pinterest.com</center></em></p>
+<p>Java Design Patterns (eBook) Pattern design, Programming patterns Pola singleton adalah pola desain perangkat lunak yang menjamin sebuah kelas hanya punya satu instans dan titik akses globalnya disediakan oleh kelas tersebut. Abstract factory, builder and prototype patterns can use singletons. Inisialisasi malas adalah teknik di mana seseorang menunda instantiasi suatu objek hingga penggunaan pertama. Setiap kali banyak kelas atau klien mengirim permintaan untuk kelas tersebut, mereka mendapatkan instans.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/www.mongabay.co.id/wp-content/uploads/2020/03/Ian-Singleton-dalam-sebuah-campign-penuelamatan-Orangutan-Tapanuli-di-Medan-Ayat-S-Karokaro-ok-01-scaled.jpeg" alt="Nasib Orangutan Tapanuli dengan Kehadiran Proyek PLTA Batang Toru" title="Nasib Orangutan Tapanuli dengan Kehadiran Proyek PLTA Batang Toru" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: mongabay.co.id</center></em></p>
+<p>Nasib Orangutan Tapanuli dengan Kehadiran Proyek PLTA Batang Toru Karena itu tidak memperkenalkan negara bisa berubah global. Pada postingan sebelumnya, disana saya menulis tentang singleton, sama seperti postingan hari ini tentang signleton juga, namun yang membedakan kedua postingan ini adalah. Sekarang anda telah memahami apa itu kelas singleton di java, lihat oleh edureka, perusahaan pembelajaran online tepercaya dengan jaringan lebih dari 250.000 pelajar yang puas dan tersebar di seluruh.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/e9/91/d2/e991d2afc90e131c58c320ff518a2f59.png" alt="Template Design Pattern in Java Spring framework, Java programming" title="Template Design Pattern in Java Spring framework, Java programming" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: pinterest.com</center></em></p>
+<p>Template Design Pattern in Java Spring framework, Java programming Singleton adalah sebuah design pattern di dalam pemrograman yang berfungsi untuk menghemat memori dengan cara “menghilangkan” inisialisasi objek. Dengan menggunakan singleton, kita tidak perlu melakukan inisialisasi objek manusia. Latar belakang fraud dan akuntansi forensik chapter 1: Apa itu pola desain singleton? Singleton pattern akan membantu kita untuk melakukan hal itu.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/1104/1*umNBE73ITxZn1Ai_TVQwKQ.png" alt="Kiddy Medium" title="Kiddy Medium" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: kiddyxyz.medium.com</center></em></p>
+<p>Kiddy Medium Dengan kata lain, instance dari suatu kelas dibuat ketika diperlukan untuk digunakan pertama kali. Singleton pattern merupakan salah satu dari sekian banyak design pattern yang ada, dimana. Selain itu, kita juga dapat belajar bagaimana cara berinteraksi dengan data yang ada pada. 3 tipe software design pattern Gagasan di balik ini adalah untuk menghindari pembuatan instance yang tidak perlu.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/1280/1*qVGcgihMzHukbjMMuAOw6Q.png" alt="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" title="Documentation Generator, Design Patterns — Minggu terakhir Sprint 3" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: medium.com</center></em></p>
+<p>Documentation Generator, Design Patterns — Minggu terakhir Sprint 3 Pola singleton adalah pola desain perangkat lunak yang menjamin sebuah kelas hanya punya satu instans dan titik akses globalnya disediakan oleh kelas tersebut. Selain itu, kita juga dapat belajar bagaimana cara berinteraksi dengan data yang ada pada. Tapi itu juga bukan singleton. This standard guarantees the existence of only one instance of a class, while maintaining a global point of.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/1.bp.blogspot.com/-kDFxW4ByfqE/WmSuEjce6uI/AAAAAAAAGHA/p-atakKq_PYQ196ncwYXRfmQDKkTbLnswCLcBGAs/s1600/Java-Design-Patterns.png" alt="Design Pattern and Implementation of Singleton Design Pattern in java" title="Design Pattern and Implementation of Singleton Design Pattern in java" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: programinjava.com</center></em></p>
+<p>Design Pattern and Implementation of Singleton Design Pattern in java Apa itu design pattern design pattern artinya adalah pola desain. Untuk skenario singleton sendiri bisa dilihat digambar dibawah ini: Gagasan di balik ini adalah untuk menghindari pembuatan instance yang tidak perlu. Dalam istilah awam, kelas singleton di java adalah kelas yang membolehkan akses ke dalamnya melalui satu contoh pada satu masa. Tapi desain pattern lebih dari itu, desain pattern bisa…</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/0.academia-photos.com/attachment_thumbnails/43160573/mini_magick20190216-15357-mss411.png?1550351445" alt="(DOC) Resume Bab 1 Singleton irda wanti Academia.edu" title="(DOC) Resume Bab 1 Singleton irda wanti Academia.edu" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: academia.edu</center></em></p>
+<p>(DOC) Resume Bab 1 Singleton irda wanti Academia.edu 3 tipe software design pattern Hai semuanya kembali lagi di artikel dumetschool , kali ini saya akan masih membahas mengenai oop yaitu apa itu design pattern singleton di php object oriented , hingga di sini apakah masih ada yang belum tahu. Selain itu, kita juga dapat belajar bagaimana cara berinteraksi dengan data yang ada pada. The singleton single malt yang.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/technicaljungle.com/wp-content/uploads/2019/03/image.png" alt="design pattern java android Android Java Kotlin BLOG" title="design pattern java android Android Java Kotlin BLOG" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: technicaljungle.com</center></em></p>
+<p>design pattern java android Android Java Kotlin BLOG Sebelumnya gw sudah bikin method runprogram () yang isinya berupa perintah untuk menampilkan. The singleton pattern enables us to do this. Welcome back, pattern kita selanjutnya adalah singleton pattern. Apa itu pola desain singleton? Terdapat 3 pola bagian utama sesuai dengan kegunaannya.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/www.valentinog.com/blog/static/935f48027ef6b5f922df60538335269d/a2792/formdata-entries.png" alt="34 Append To Object Javascript Javascript Overflow" title="34 Append To Object Javascript Javascript Overflow" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: maibushyx.blogspot.com</center></em></p>
+<p>34 Append To Object Javascript Javascript Overflow Singleton dapat memberimu dua hal. Inisialisasi malas adalah teknik di mana seseorang menunda instantiasi suatu objek hingga penggunaan pertama. Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Terdapat 3 pola bagian utama sesuai dengan kegunaannya. Kursus pelatihan dan sertifikasi java j2ee dan soa edureka dirancang untuk siswa.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/0.academia-photos.com/attachment_thumbnails/54525012/mini_magick20180818-2011-2s8wmb.png?1534645940" alt="(DOC) LATAR BELAKANG FRAUD DAN AKUNTANSI FORENSIK Vita Dewi" title="(DOC) LATAR BELAKANG FRAUD DAN AKUNTANSI FORENSIK Vita Dewi" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: academia.edu</center></em></p>
+<p>(DOC) LATAR BELAKANG FRAUD DAN AKUNTANSI FORENSIK Vita Dewi Setiap kali banyak kelas atau klien mengirim permintaan untuk kelas tersebut, mereka mendapatkan instans kelas yang sama. Jadi singleton itu identik dengan instance. Memastikan bahwa semua obyek mengakses instance yang sama; Studi kasus ini sangat cocok untuk memahami logika pemrogramman. Kali ini, kita tidak hanya membahas apa itu singleton principle, tapi juga membahas.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/1.bp.blogspot.com/-s4zP_hQJzvk/X6vsDzoJYbI/AAAAAAAABbY/GWM4CLPoHWs-9FFACW-Zs3XVzphTe0K5gCLcBGAsYHQ/s0/2.jpg" alt="diorang bernilai� Ibu sengaja lemaskan dua anak perempuannya" title="diorang bernilai� Ibu sengaja lemaskan dua anak perempuannya" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: thereporter.my</center></em></p>
+<p>diorang bernilai� Ibu sengaja lemaskan dua anak perempuannya Jadi, apa itu static modifier, final modifier, dan singleton pattern ? Kelas singleton harus memiliki metode statis publik untuk mendapatkan instance kelas dari mana saja di aplikasi [dari kelas yang berbeda, paket yang berbeda, dll]. Hai semuanya kembali lagi di artikel dumetschool , kali ini saya akan masih membahas mengenai oop yaitu apa itu design pattern singleton di php object.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/U9jz3omyb_Y/maxresdefault.jpg" alt="Learn Design Patterns with Java by Aseem Jain YouTube" title="Learn Design Patterns with Java by Aseem Jain YouTube" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: youtube.com</center></em></p>
+<p>Learn Design Patterns with Java by Aseem Jain YouTube Pola ini dibagi menjadi 5 macam, yaitu: Dengan kata lain, instance dari suatu kelas dibuat ketika diperlukan untuk digunakan pertama kali. Sebuah instance adalah kejadian konkret dari objek apa pun. Singleton biasanya ada dalam kamus atau glossary berikut ini untuk penjelasan apa. Hai semuanya kembali lagi di artikel dumetschool , kali ini saya akan masih membahas mengenai oop yaitu apa.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i0.wp.com/rifqimulyawan.com/wp-content/uploads/Gambar-Self-Closing-Tag-Dalam-HTML-Pengertian-Apa-Itu-Tag-Berdiri-Sendiri-Atau-Mandiri-Dan-Void-Element-Sejarah-Macam-Dan-Contohnya.jpg?resize=1024%2C684&amp;amp;ssl=1" alt="SelfClosing Tag dalam HTML Pengertian, Sejarah, Macam, Contohnya!" title="SelfClosing Tag dalam HTML Pengertian, Sejarah, Macam, Contohnya!" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: rifqimulyawan.com</center></em></p>
+<p>SelfClosing Tag dalam HTML Pengertian, Sejarah, Macam, Contohnya! Hanya membutuhkan satu kelas pada class diagram. Singleton adalah sebuah design pattern di dalam pemrograman yang berfungsi untuk menghemat memori dengan cara “menghilangkan” inisialisasi objek. Elemen singleton ( % s) punya duplikat. Untuk skenario singleton sendiri bisa dilihat digambar dibawah ini: Studi kasus ini sangat cocok untuk memahami logika pemrogramman.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/digstraksi.com/wp-content/uploads/2020/12/3a501945eb628c7a544af189581014ec5384ecf0-1024x640.jpg" alt="Apa Itu Static Modifier, Final Modifier, Dan Singleton Pattern?" title="Apa Itu Static Modifier, Final Modifier, Dan Singleton Pattern?" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: digstraksi.com</center></em></p>
+<p>Apa Itu Static Modifier, Final Modifier, Dan Singleton Pattern? Pola singleton adalah pola desain perangkat lunak yang menjamin sebuah kelas hanya punya satu instans dan titik akses globalnya disediakan oleh kelas tersebut. Tegukan dengan rasa yang kaya dan segar,. Singleton pattern adalah design pattern yang digunakan untuk membatasi instanisasi dari suatu kelas menjadi satu object, membatasi sebuah global point of access ke suatu object dan ketika ada multiple instances,.</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/ichi.pro/assets/images/max/724/0*mFqr_zb-ouv0XcAg.png" alt="Semua yang perlu Anda ketahui tentang Memory Leaks di android." title="Semua yang perlu Anda ketahui tentang Memory Leaks di android." onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: ichi.pro</center></em></p>
+<p>Semua yang perlu Anda ketahui tentang Memory Leaks di android. Pola desain singleton memungkinkan kita untuk membuat hanya satu instance kelas dan memastikan bahwa hanya ada satu object di jvm. Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Elemen singleton ( % s) punya duplikat. Untuk hal yang sederhana ini bisa sebuah function atau atau sebuah class..</p>
+<p><img loading="lazy" width="100%" src="https://hariantoo65.github.io/img/placeholder.svg" data-src="https://i2.wp.com/anbidev.com/post/web-singleton.jpg" alt="Ragam Design Pattern Singleton AnbiDev" title="Ragam Design Pattern Singleton AnbiDev" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';" class="center" />
+<em><center>Source: anbidev.com</center></em></p>
+<p>Ragam Design Pattern Singleton AnbiDev Sebelum praktek, kita akan bahas dulu apa itu singleton dan kenapa kita menggunakan singleton. Pola singleton adalah pola desain perangkat lunak yang menjamin sebuah kelas hanya punya satu instans dan titik akses globalnya disediakan oleh kelas tersebut. Singleton dapat memberimu dua hal. Ini definisi dari singleton pattern: Hanya membutuhkan satu kelas pada class diagram.</p>
+<h3 id="sebelum-praktek-kita-akan-bahas-dulu-apa-itu-singleton-dan-kenapa-kita-menggunakan-singleton-ragam-design-pattern-singleton-anbidev">Sebelum praktek, kita akan bahas dulu apa itu singleton dan kenapa kita menggunakan singleton. Ragam Design Pattern Singleton AnbiDev.</h3><p>Assalamu�alaikum warahmatullahi waarakatuh masih melanjutkan postingan beberapa hari yang lalu tentang design pattern untuk solusi dalam pemrograman dari gof(gang of four). Untuk skenario singleton sendiri bisa dilihat digambar dibawah ini: Singleton pattern adalah design pattern yang digunakan untuk membatasi instanisasi dari suatu kelas menjadi satu object, membatasi sebuah global point of access ke suatu object dan ketika ada multiple instances, tidak mempengaruhi singleton class client. Itu ada biasanya selama runtime program komputer dan itu menekankan dalam mengidentifikasi objek secara jelas. Obyek yang dapat diakses secara global; Inisialisasi malas adalah teknik di mana seseorang menunda instantiasi suatu objek hingga penggunaan pertama.</p>
+<p>Selain itu, kita juga dapat belajar bagaimana cara berinteraksi dengan data yang ada pada. Di panduan kali ini sahabat akan belajar mengenai apa itu design pattern singleton di php object oriented dan bagaimana cara implementasikannya. Ini definisi dari singleton pattern: <em>Ragam Design Pattern Singleton AnbiDev</em>, Pola singleton adalah pola desain perangkat lunak yang menjamin sebuah kelas hanya punya satu instans dan titik akses globalnya disediakan oleh kelas tersebut.</p>
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '2a944a8654f195545b85ac560956b25b',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplayformat.com/2a944a8654f195545b85ac560956b25b/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+
+
+            </article>
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/finance-parenting/how-to-determine-surface-area-of-a-sphere/">&laquo;&laquo;&nbsp;These 10 Step How To Determine Surface Area Of A Sphere for fix Your Problem</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/finance-parenting/apa-yang-dimaksud-dengan-single-parent/">These 13 Tips Apa Yang Dimaksud Dengan Single Parent for Reviews&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Related Article</span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/helicopter-parenting-bad-effects/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/i.visual.ly/images/helicopter-parenting-and-its-longlasting-effects_55dcefbb79081_w1500.png" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/helicopter-parenting-bad-effects/">These 9 Step Helicopter Parenting Bad Effects for Your Kids</a>
+                        </h2>
+                        <small class="text-muted">May 06 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/perceived-parenting-style-scale-pdf/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/i1.rgstatic.net/publication/271414355_The_Analysis_of_Relationship_Between_School_Bullying_Perceived_Parenting_Styles_and_Self-Esteem_in_Adolescents/links/57da6f3b08ae72d72ea20cb8/largepreview.png" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/perceived-parenting-style-scale-pdf/">The 13 Step Perceived Parenting Style Scale Pdf for Reviews</a>
+                        </h2>
+                        <small class="text-muted">Nov 07 . 11 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/what-is-a-toxic-mom/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/b2/ff/e3/b2ffe3b0a327e090814fbacaa15a5fa9.jpg" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/what-is-a-toxic-mom/">Does 6 Step What Is A Toxic Mom for Respect and Gentle</a>
+                        </h2>
+                        <small class="text-muted">Oct 15 . 11 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/apa-arti-dari-single-parent/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/storage.googleapis.com/finansialku_media/wordpress_media/2018/12/Takut-Jadi-Single-parent-Ketahui-Sekarang-5-Keuntungan-Single-parent-01-Finansialku.jpg" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/apa-arti-dari-single-parent/">The 6 Step Apa Arti Dari Single Parent for Respect and Gentle</a>
+                        </h2>
+                        <small class="text-muted">Sep 28 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/dimensions-of-research-questionnaire/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/www.researchgate.net/profile/Cassio_Bottino/publication/304453486/figure/download/tbl1/AS:613953780580367@1523389396502/MMQ-questionnaire-dimensions.png" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/dimensions-of-research-questionnaire/">Does 8 Tips Dimensions Of Research Questionnaire </a>
+                        </h2>
+                        <small class="text-muted">Oct 11 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/impact-of-single-parent-families-on-child-development-pdf/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/d3i71xaburhd42.cloudfront.net/ed201d4594f4f76e4dc23d7d72dec9791f1d2800/17-Figure1-1.png" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/impact-of-single-parent-families-on-child-development-pdf/">These 6 Tips Impact Of Single-Parent Families On Child Development Pdf for Reviews</a>
+                        </h2>
+                        <small class="text-muted">Jan 02 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/bible-verses-father-love-letter/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/70/01/12/70011227ec16886ae9a5e7c7896eebaf.jpg" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/bible-verses-father-love-letter/">The 8 Step Bible Verses Father Love Letter for Respect and Gentle</a>
+                        </h2>
+                        <small class="text-muted">Feb 03 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/finance-parenting/apa-arti-dalam-bahasa-arab/"><img height="80" src="/img/placeholder.svg" data-src="https://i2.wp.com/image.kamuslengkap.com/kamus/nama/arti-kata/safinatun-najah_wide.jpg" onerror="this.onerror=null;this.src='https:\/\/hariantoo65.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/finance-parenting/apa-arti-dalam-bahasa-arab/">The 15 Step Apa Arti Dalam Bahasa Arab for Your Kids</a>
+                        </h2>
+                        <small class="text-muted">Oct 11 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://hariantoo65.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://hariantoo65.github.io/finance-parenting/">Finance and Parenting Review</a> Copyright &copy; 2022.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+
+<script type="text/javascript">
+var sc_project=12473315; 
+var sc_invisible=1; 
+var sc_security="4be4704d"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12473315/0/4be4704d/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+
+  </body>
+</html>

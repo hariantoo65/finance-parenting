@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hariantoo65.github.io/finance-parenting/sitemapx.xml
